@@ -131,6 +131,7 @@
 .digits {
     display: block;
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .section-title {
@@ -293,6 +294,10 @@
     list-style-type: none;
 }
 
+.footer__column_card:first-child {
+    padding-bottom: 20px;
+}
+
 .footer__column_content_copyright {
     flex-basis: 711px;
     justify-content: space-between;
@@ -325,7 +330,7 @@
 
 .footer__column-heading {
     color: white;
-    padding-bottom: 20px;
+    padding-bottom: 16px;
     line-height: 30px;
     font-size: 18px;
     font-weight: bold;
