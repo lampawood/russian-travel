@@ -30,7 +30,7 @@
                     <div class="two-columns__main-text">
                         <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального
                             знания. Зубрежка быстро выветривается и не приносит пользы.</p>
-                        <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span>учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
+                        <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
                         <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
                     </div>
                 </div>
@@ -78,14 +78,13 @@
             </section>
 
             <section class="feynman">
-                <h3 class="feynman__title">Метод Фейнмана</h3>
+                <h2 class="feynman__title">Метод Фейнмана</h2>
                 <p class="feynman__subtitle">Выучить и не забыть.</p>
                 <a href="#" class="feynman__link">Подробнее &rarr;</a>
             </section>
-            <!-- тут руководствовалась той же логикой: Родитель__элемент_моификатор/ родитель__элемент / элемент_модификатор. Это вроде как я поняла по БЭМ. Хотя в ревью написано, что тут с классами ок.-->
             <section class="kaufman">
                 <div class="kaufman__triangle"></div>
-                <h4 class="section-title_theme_dark section-title">Принципы обучения</h4>
+                <h3 class="section-title_theme_dark section-title">Принципы обучения</h3>
                 <p class="section-subtitle_theme_dark section-subtitle">от Джоша Кауфмана</p>
                 <ul class="table_theme_dark table">
                     <li class="table__cell_theme_dark table__cell">
@@ -139,31 +138,36 @@
                     <p class="footer__author"> &COPY; 2020. Екатерина Иванова</p>
                 </div>
                 <nav class="footer__column_content_info footer__column">
-                    <ul class="footer__column-heading">
-                        <li class="footer__column_card">О Практикуме</li>
-                        <li class="footer__column_card">
+                    <h2 class="footer__column-heading">О Практикуме
+                    </h2>
+
+                    <!--Не удивительно, что в предыдущих проверках класс "footer__column_card" не встречался) 
+                      он был придуман только для того, что бы задать li какой-то класс, его единственная функция удаление точек маркированного списка
+                    сейчас он вовсе удален и на смену ему пришел "footer__card" у ul. Это же врое верное наименование по БЭМ? Или для ul/li действуют какие-то иные правила? -->
+                    <ul class="footer__card">
+                        <li>
                             <a href=" # " class="footer__column-links ">Главная</a>
                         </li>
-                        <li class="footer__column_card">
+                        <li>
                             <a href="# " class="footer__column-links ">Концепция</a>
                         </li>
-                        <li class="footer__column_card">
+                        <li>
                             <a href="# " class="footer__column-links ">Наставники</a>
                         </li>
                     </ul>
                 </nav>
                 <nav class="footer__column_content_social footer__column ">
-                    <ul class="footer__column-heading ">
-                        <li class="footer__column_card">Соцсети</li>
-                        <li class="footer__column_card">
+                    <h2 class="footer__column-heading">Соцсети</h2>
+                    <ul class="footer__card">
+                        <li>
                             <a href="# " class="footer__column-links ">
                                 <img class="footer__social-icon " src="./images/facebook_color_white.svg " alt="иконка Фейсбука ">Facebook</a>
                         </li>
-                        <li class="footer__column_card">
+                        <li>
                             <a href="# " class="footer__column-links ">
                                 <img class="footer__social-icon " src="./images/vk_color_white.svg " alt="иконка вконтакте ">ВКонтакте</a>
                         </li>
-                        <li class="footer__column_card">
+                        <li>
                             <a href="# " class="footer__column-links ">
                                 <img class="footer__social-icon " src="./images/instagram_color_white.svg " alt="иконка инстаграм ">Instagram</a>
                         </li>

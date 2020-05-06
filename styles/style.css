@@ -104,6 +104,7 @@
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
+    margin: 0px;
 }
 
 .two-columns__main-text {
@@ -118,14 +119,18 @@
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
+    margin-top: 0px;
 }
 
 .two-columns__paragraph:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 .two-columns__span-accent {
     margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
 }
 
 .digits {
@@ -242,6 +247,7 @@
 
 .table_theme_dark {
     margin-bottom: 90px;
+    padding: 0px;
 }
 
 .table__cell_theme_dark {
@@ -252,10 +258,13 @@
 
 .table__heading_theme_dark {
     color: white;
+    margin-top: 0px;
 }
 
 .table__text_theme_dark {
     color: white;
+    margin: 0px;
+    padding: 0px;
 }
 
 .kaufman__triangle {
@@ -290,11 +299,12 @@
     flex-direction: column;
 }
 
-.footer__column_card {
-    list-style-type: none;
+.footer__card {
+    padding-inline-start: 0;
+    list-style: none;
 }
 
-.footer__column_card:first-child {
+.footer__column-links {
     padding-bottom: 20px;
 }
 
@@ -330,7 +340,6 @@
 
 .footer__column-heading {
     color: white;
-    padding-bottom: 16px;
     line-height: 30px;
     font-size: 18px;
     font-weight: bold;
@@ -343,7 +352,7 @@
     margin-bottom: 16px;
     line-height: 30px;
     font-size: 18px;
-    padding-left: 0;
+    padding: 0;
     text-decoration: none;
 }
 
