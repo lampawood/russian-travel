@@ -16,7 +16,7 @@
 <body>
     <div class="page">
         <header class="header">
-            <div class="logo logo__place_header"></div>
+            <div class="logo logo_place_header"></div>
             <h1 class="header__title">Научиться учиться</h1>
             <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
                 <a href="#" class="header__link"> Узнать &rarr;</a></p>
@@ -134,41 +134,39 @@
         <footer class="footer">
             <div class="footer__columns">
                 <div class="footer__column_content_copyright footer__column">
-                    <div class="logo__place_footer logo"></div>
+                    <div class="logo_place_footer logo"></div>
                     <p class="footer__author"> &COPY; 2020. Екатерина Иванова</p>
                 </div>
                 <nav class="footer__column_content_info footer__column">
                     <h2 class="footer__column-heading">О Практикуме
                     </h2>
 
-                    <!--Не удивительно, что в предыдущих проверках класс "footer__column_card" не встречался) 
-                      он был придуман только для того, что бы задать li какой-то класс, его единственная функция удаление точек маркированного списка
-                    сейчас он вовсе удален и на смену ему пришел "footer__card" у ul. Это же врое верное наименование по БЭМ? Или для ul/li действуют какие-то иные правила? -->
-                    <ul class="footer__card">
+                    <!-- класс footer__card первое, что пришло в голову. Рассматривала эти блоки как некие карточки с ссылками.-->
+                    <ul class="footer__column-links">
                         <li>
-                            <a href=" # " class="footer__column-links ">Главная</a>
+                            <a href=" # " class="footer__column-link ">Главная</a>
                         </li>
                         <li>
-                            <a href="# " class="footer__column-links ">Концепция</a>
+                            <a href="# " class="footer__column-link ">Концепция</a>
                         </li>
                         <li>
-                            <a href="# " class="footer__column-links ">Наставники</a>
+                            <a href="# " class="footer__column-link ">Наставники</a>
                         </li>
                     </ul>
                 </nav>
                 <nav class="footer__column_content_social footer__column ">
                     <h2 class="footer__column-heading">Соцсети</h2>
-                    <ul class="footer__card">
+                    <ul class="footer__column-links">
                         <li>
-                            <a href="# " class="footer__column-links ">
+                            <a href="# " class="footer__column-link ">
                                 <img class="footer__social-icon " src="./images/facebook_color_white.svg " alt="иконка Фейсбука ">Facebook</a>
                         </li>
                         <li>
-                            <a href="# " class="footer__column-links ">
+                            <a href="# " class="footer__column-link ">
                                 <img class="footer__social-icon " src="./images/vk_color_white.svg " alt="иконка вконтакте ">ВКонтакте</a>
                         </li>
                         <li>
-                            <a href="# " class="footer__column-links ">
+                            <a href="# " class="footer__column-link ">
                                 <img class="footer__social-icon " src="./images/instagram_color_white.svg " alt="иконка инстаграм ">Instagram</a>
                         </li>
                     </ul>

@@ -20,7 +20,7 @@
     /* выше установили ограничения для секции */
 }
 
-.logo__place_header {
+.logo_place_header {
     position: absolute;
     top: 30px;
     left: 64px;
@@ -168,6 +168,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0px;
 }
 
 .table__cell {
@@ -188,6 +189,7 @@
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
+    margin-top: 0px;
 }
 
 .feynman {
@@ -198,10 +200,10 @@
     background-position: left bottom;
     background-color: #f2f2f2;
     background-repeat: no-repeat;
+    padding-top: 100px;
 }
 
 .feynman__title {
-    padding-top: 100px;
     width: 648px;
     line-height: 1.15;
     font-size: 120px;
@@ -247,8 +249,10 @@
 
 .table_theme_dark {
     margin-bottom: 90px;
-    padding: 0px;
 }
+
+
+/* Я б конечно не прочь убрать тут padding-left, но есть один нюанс. Его тут нет, и не было) просто перенесу паддинг*/
 
 .table__cell_theme_dark {
     width: 200px;
@@ -258,8 +262,10 @@
 
 .table__heading_theme_dark {
     color: white;
-    margin-top: 0px;
 }
+
+
+/* тут тоже возникла беда с убиранием марджинов. Их попросту у модификатора нет и не было ¯\_(ツ)_/¯. У него только цвет. Да и марджин ему нужен */
 
 .table__text_theme_dark {
     color: white;
@@ -299,7 +305,7 @@
     flex-direction: column;
 }
 
-.footer__card {
+.footer__column-links {
     padding-inline-start: 0;
     list-style: none;
 }
@@ -321,7 +327,7 @@
     color: white;
 }
 
-.logo__place_footer {
+.logo_place_footer {
     position: relative;
     background-image: url('../images/logo_place_footer.svg');
     background-size: cover;
@@ -347,7 +353,7 @@
     padding-left: 0;
 }
 
-.footer__column-links {
+.footer__column-link {
     color: white;
     margin-bottom: 16px;
     line-height: 30px;
