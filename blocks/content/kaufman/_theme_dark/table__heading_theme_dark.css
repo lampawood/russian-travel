@@ -1,0 +1,4 @@
+@import url(../content/digits/table/__heading/table__heading.css);
+.table__heading_theme_dark {
+    color: white;
+}

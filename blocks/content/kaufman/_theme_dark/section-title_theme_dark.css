@@ -1,0 +1,5 @@
+@import url(../content/digits/section/section-title.css);
+.section-title_theme_dark {
+    color: white;
+    margin-top: 90px;
+}

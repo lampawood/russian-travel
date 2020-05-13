@@ -1,0 +1,6 @@
+@import url(../content/digits/table/__cell/table__cell.css);
+.table__cell_theme_dark {
+    width: 200px;
+    padding-top: 80px;
+    z-index: 1;
+}
