@@ -7,8 +7,7 @@
 @import url(./__quote/khan__quote-author.css);
 @import url(./__quote/khan__quote.css);
 @import url(./__title/khan__title.css);
-
-.khan{
+.khan {
     background-color: #f2f2f2;
     margin-top: 100px;
 }
