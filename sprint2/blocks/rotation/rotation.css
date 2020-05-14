@@ -9,6 +9,7 @@
 .rotation{
     transform: rotate(-15deg);
     overflow: hidden;
+    -webkit-animation: rotation 20s linear infinite;
     animation: rotation 20s linear infinite;
     z-index: 0;
 }

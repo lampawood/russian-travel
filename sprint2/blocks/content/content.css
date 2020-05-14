@@ -1,3 +1,4 @@
+@import url(../link/link.css);
 @import url(../header/header.css);
 @import url(../logo/logo.css);
 @import url(../description/description.css);
@@ -15,6 +16,7 @@
 @import url(../kaufman/kaufman.css);
 @import url(../resources/resources.css);
 @import url(../footer/footer.css);
+
 .content {}
 .page {
     min-width: 1100px;
