@@ -6,8 +6,9 @@
         transform: rotate(360deg);
     }
 }
-.header__square-pic_rotation{
+.rotation{
     transform: rotate(-15deg);
     overflow: hidden;
     animation: rotation 20s linear infinite;
+    z-index: 0;
 }
