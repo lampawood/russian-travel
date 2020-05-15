@@ -1,16 +1,15 @@
 @keyframes rotation {
     from {
-        transform: rotate(0deg);
+        transform: rotate(-15deg);
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate(345deg);
     }
 }
 
 .rotation {
-    transform: rotate(-15deg);
     overflow: hidden;
     -webkit-animation: rotation 20s linear infinite;
-    animation: rotation 20s linear infinite;
+    animation: rotation 20s infinite linear;
     z-index: 0;
 }
