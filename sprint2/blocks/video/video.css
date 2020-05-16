@@ -2,6 +2,6 @@
 @import url(./__iframes/video__iframes.css);
 .video {
     padding-top: 100px;
-    height: 442px;
     position: relative;
+    margin-bottom: -40px;
 }
