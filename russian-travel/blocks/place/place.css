@@ -1,0 +1,15 @@
+@import url(./__title/place__title.css);
+@import url(./__website/place__website.css);
+@import url(./__paragraph/place__paragraph.css);
+@import url(./__image/place__image.css);
+@import url(./__url-heading/place__url-heading.css);
+.place{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(4, min-content);
+    grid-template-areas:
+    "title url"
+    "title site"
+    "image text"
+    "image text"
+}

@@ -1,0 +1,9 @@
+
+.place__title{
+    grid-area: title;
+    
+    width: 50%;
+    margin: 10% 0 7%;
+
+}
+

@@ -1,7 +1,0 @@
-@import url(./__iframe/video__iframe.css);
-@import url(./__iframes/video__iframes.css);
-.video {
-    padding-top: 100px;
-    position: relative;
-    margin-bottom: -40px;
-}
