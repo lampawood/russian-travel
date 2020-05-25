@@ -1,9 +1,9 @@
 @import url(./__item/photo-grid__item.css);
 .photo-grid{
-    width: 85%;
-    border: red solid 1px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-}
+        margin: 0 auto;
+        display: grid;
+        width: 92.5%;
+        grid-gap: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+        grid-template-rows: auto;
+    }
