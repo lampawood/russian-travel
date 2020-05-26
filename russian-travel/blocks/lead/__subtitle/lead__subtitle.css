@@ -1,6 +1,15 @@
 .lead__subtitle {
-	margin: 0 auto;
-	width: 62%;
-	text-align: center;
-	font-size: 1.98em;
+    margin: 0 auto;
+    width: 62.5%;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.125;
+    padding-top: 3.126%;
+}
+
+@media(max-width:320px) {
+    .lead__subtitle {
+        width: 92.5%;
+        font-size: 1.039em;
+    }
 }

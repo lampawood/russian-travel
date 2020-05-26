@@ -1,5 +1,16 @@
 .intro__title {
-	font-size: 3.5em;
-	line-height: 1em;
-	width: 89.9%;
+    font-size: 3.296em;
+    line-height: 1.1em;
+    width: 89.845%;
+    margin: 0;
+    padding-top: 11.98%;
+    padding-bottom: 5.21%;
+}
+
+@media(max-width:320px) {
+    .intro__title {
+        font-size: 2em;
+        line-height: 1.1em;
+        width: 66.845%;
+    }
 }

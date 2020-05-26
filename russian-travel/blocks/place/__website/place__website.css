@@ -1,9 +1,31 @@
-.place__website{
+.place__website {
     grid-area: site;
     color: #ffffff;
-    font-size: 1.4em;
+    font-size: 1em;
     line-height: 1.5;
     max-height: 5%;
     margin: -15% 0 0 0;
     grid-row: -3;
+}
+
+.place__website:hover {
+    opacity: 0.8;
+}
+
+@media (max-width:1024px) {
+    .place__website {
+        font-size: 0.8em;
+    }
+}
+
+@media(max-width:768px) {
+    .place__website {
+        padding-left: 2.5%;
+    }
+}
+
+@media(max-width:320px) {
+    .place__website {
+        display: none;
+    }
 }

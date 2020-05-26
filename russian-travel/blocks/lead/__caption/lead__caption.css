@@ -1,6 +1,12 @@
-.lead__caption{
+.lead__caption {
     margin: 0;
     line-height: 2;
     font-size: 0.8em;
     text-transform: uppercase;
+}
+
+@media(max-width:768px) {
+    .lead__caption {
+        padding-left: 3%;
+    }
 }

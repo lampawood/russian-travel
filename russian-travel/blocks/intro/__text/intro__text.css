@@ -1,6 +1,13 @@
 .intro__text {
-	width: 94%;
-	font-size: 0.9em;
-	line-height: 1.7;
-	
+    width: 89.845%;
+    font-size: 1em;
+    line-height: 1.625;
+    margin: 0;
+    padding-bottom: 4.167%;
+}
+
+@media(max-width:768px) {
+    .intro__text {
+        font-size: 1em;
+    }
 }

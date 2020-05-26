@@ -1,8 +1,11 @@
 .page {
-min-width: 320px;
-max-width: 1280px;
-margin: 0 auto;
-background-color: #2a2c2f;
-font-family: 'Inter';
-color: #ffffff;
+    min-width: 320px;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #2a2c2f;
+    font-family: 'Inter';
+    color: #ffffff;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
 }

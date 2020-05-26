@@ -1,8 +1,23 @@
 @import url(./__copyright/footer__coopyright.css);
 @import url(./__link/footer__link.css);
-.footer{
+.footer {
     display: flex;
     flex-direction: row;
     width: 90%;
     margin: 0 auto;
+    padding-bottom: 2%;
+}
+
+@media(max-width:768px) {
+    .footer {
+        width: 96%;
+    }
+}
+
+@media(max-width:320px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 3%;
+    }
 }

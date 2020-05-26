@@ -1,6 +1,25 @@
-.place__url-heading{
+.place__url-heading {
     grid-area: url;
-    font-size: 1em;
+    font-size: 0.9em;
     margin: -20% 0 0 0;
     grid-row: -3;
+    color: #AAAAAA;
+}
+
+@media (max-width:1024px) {
+    .place__url-heading {
+        font-size: 0.85em;
+    }
+}
+
+@media (max-width:768px) {
+    .place__url-heading {
+        padding-left: 2.5%;
+    }
+}
+
+@media(max-width:320px) {
+    .place__url-heading {
+        display: none;
+    }
 }

@@ -2,10 +2,16 @@
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__image/lead__image.css);
 @import url(./__caption/lead__caption.css);
-.lead{
+.lead {
     display: flex;
     flex-direction: column;
-    padding-top: 3%;
+    padding-top: 4%;
     width: 80%;
     margin: 0 auto;
+}
+
+@media (max-width:768px) {
+    .lead {
+        width: 100%;
+    }
 }

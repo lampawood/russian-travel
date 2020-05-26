@@ -1,9 +1,13 @@
-
-.place__title{
+.place__title {
     grid-area: title;
-    
     width: 50%;
     margin: 10% 0 7%;
-
 }
 
+@media(max-width:320px) {
+    .place__title {
+        font-size: 2em;
+        width: 90%;
+        margin: 10% 0 7% 5%;
+    }
+}

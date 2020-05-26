@@ -1,14 +1,26 @@
-.header__lang-link {
-    font-size: 1.5em;
-    line-height: 1.6em;
-    color: white;
-    padding-left: 80%;
-    padding-right: 1%;
-    text-decoration: underline;
-    max-height: 28px;
-    margin-top: 2%;
-}
-.header__lang-link:last-child{
-    padding: 0;
-    text-decoration: none;
-}
+    .header__lang-link {
+        font-size: 1.5em;
+        line-height: 1.6em;
+        color: white;
+        padding-left: 80%;
+        text-decoration: underline;
+        max-height: 28px;
+        margin-top: 2%;
+        position: absolute;
+        right: 5%;
+    }
+    
+    .header__lang-link:last-child {
+        left: 17.5%;
+        text-decoration: none;
+    }
+    
+    @media(max-width:320px) {
+        .header__lang-link {
+            font-size: 1.259em;
+            right: 10%;
+        }
+        .header__lang-link:last-child {
+            left: 14.5%;
+        }
+    }

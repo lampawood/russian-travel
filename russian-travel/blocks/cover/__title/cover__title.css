@@ -1,7 +1,29 @@
-
-.cover__title {
-    width: 50%;
-    text-align: center;
-    padding: 17% 0% 3% 0%;
-    margin: 0 auto;
-}
+    .cover__title {
+        width: 46.612%;
+        text-align: center;
+        padding: 21% 0% 1% 0%;
+        margin: 0 auto;
+        font-size: 4.3em;
+    }
+    
+    @media (max-width:1024px) {
+        .cover__title {
+            font-size: 4em;
+            width: 49%;
+        }
+    }
+    
+    @media(max-width:768px) {
+        .cover__title {
+            width: 65%;
+            padding: 19% 0% 1% 0%;
+        }
+    }
+    
+    @media(max-width:320px) {
+        .cover__title {
+            font-size: 2.5em;
+            width: 90%;
+            padding: 9% 0% 1% 0%;
+        }
+    }

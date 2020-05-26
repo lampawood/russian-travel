@@ -1,5 +1,20 @@
-.place__paragraph{
-    grid-area: text;
-    margin: 0;
-    line-height: 2;
-}
+        .place__paragraph {
+            grid-area: text;
+            margin: 0;
+            line-height: 2;
+        }
+        
+        @media(max-width:768px) {
+            .place__paragraph {
+                padding-left: 2.5%;
+                font-size: 0.8em;
+            }
+        }
+        
+        @media(max-width:320px) {
+            .place__paragraph {
+                padding-left: 5%;
+                width: 88%;
+                padding-top: 8%;
+            }
+        }

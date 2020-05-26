@@ -1,6 +1,26 @@
-.footer__coopyright{
+.footer__coopyright {
     margin: 0;
-   padding: 0 0 2% 46%;
-   font-size: 1em;
+    font-size: 1em;
     line-height: 1em;
+    padding-left: 45%;
+}
+
+@media(max-width:1024px) {
+    .footer__coopyright {
+        padding-left: 33%;
+    }
+}
+
+@media(max-width:768px) {
+    .footer__coopyright {
+        font-size: 0.8em;
+        padding-left: 30%;
+    }
+}
+
+@media(max-width:320px) {
+    .footer__coopyright {
+        font-size: 0.7em;
+        padding-left: 0%;
+    }
 }
