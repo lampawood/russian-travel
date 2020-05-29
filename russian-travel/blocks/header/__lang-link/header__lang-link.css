@@ -8,7 +8,7 @@
     margin-top: 2%;
 }
 
-@media(max-width:320px) {
+@media (max-width:320px) {
     .header__lang-link {
         font-size: 1.259em;
         right: 10%;

@@ -3,13 +3,13 @@
         width: 90%;
     }
     
-    @media(max-width:768px) {
+    @media (max-width:768px) {
         .place__image {
             width: 95%;
         }
     }
     
-    @media(max-width:320px) {
+    @media (max-width:320px) {
         .place__image {
             width: 100%;
         }

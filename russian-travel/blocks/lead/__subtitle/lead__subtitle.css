@@ -7,7 +7,7 @@
     padding-top: 3.126%;
 }
 
-@media(max-width:320px) {
+@media (max-width:320px) {
     .lead__subtitle {
         width: 92.5%;
         font-size: 1.039em;

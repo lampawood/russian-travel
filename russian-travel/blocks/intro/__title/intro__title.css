@@ -7,7 +7,7 @@
     padding-bottom: 5.21%;
 }
 
-@media(max-width:320px) {
+@media (max-width:320px) {
     .intro__title {
         font-size: 2em;
         line-height: 1.1em;

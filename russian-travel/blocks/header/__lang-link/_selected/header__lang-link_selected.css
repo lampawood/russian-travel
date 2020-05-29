@@ -2,3 +2,15 @@
     padding-left: 77%;
     text-decoration: underline;
 }
+
+@media (max-width:768px) {
+    .header__lang-link_selected {
+        padding-left: 68%;
+    }
+}
+
+@media(max-width:320px) {
+    .header__lang-link_selected {
+        padding-left: 30%;
+    }
+}

@@ -3,13 +3,13 @@
     margin: 0 auto;
 }
 
-@media(max-width:768px) {
+@media (max-width:768px) {
     .places {
         width: 95.5%;
     }
 }
 
-@media(max-width:320px) {
+@media (max-width:320px) {
     .places {
         width: 100%;
     }

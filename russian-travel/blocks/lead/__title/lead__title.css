@@ -3,6 +3,7 @@
     max-width: 77.313%;
     margin: 0 auto;
     font-size: 6em;
+    font-weight: 900;
     line-height: 1.0416em;
 }
 
@@ -12,7 +13,13 @@
     }
 }
 
-@media(max-width:320px) {
+@media (max-width:768px) {
+    .lead__title {
+        max-width: 87.313%;
+    }
+}
+
+@media (max-width:320px) {
     .lead__title {
         max-width: 92.313%;
         font-size: 2.5em;

@@ -11,7 +11,7 @@
     padding-bottom: 5%;
 }
 
-@media(max-width:320px) {
+@media (max-width:320px) {
     .place {
         grid-template-columns: repeat(1, 1fr);
         grid-template-areas: "title" "image" "text";

@@ -13,14 +13,14 @@
         }
     }
     
-    @media(max-width:768px) {
+    @media (max-width:768px) {
         .cover__title {
             width: 65%;
             padding: 19% 0% 1% 0%;
         }
     }
     
-    @media(max-width:320px) {
+    @media (max-width:320px) {
         .cover__title {
             font-size: 2.5em;
             width: 90%;

@@ -12,14 +12,14 @@
         }
     }
     
-    @media(max-width:768px) {
+    @media (max-width:768px) {
         .cover__subtitle {
             width: 50%;
             padding: 0% 0% 15% 0;
         }
     }
     
-    @media(max-width:320px) {
+    @media (max-width:320px) {
         .cover__subtitle {
             width: 90%;
             font-size: 0.799em;

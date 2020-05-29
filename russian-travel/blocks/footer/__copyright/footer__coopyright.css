@@ -2,23 +2,25 @@
     margin: 0;
     font-size: 1em;
     line-height: 1em;
-    padding-left: 45%;
+    padding-left: 44%;
+    padding-top: 1.5%;
 }
 
-@media(max-width:1024px) {
+@media (max-width:1024px) {
     .footer__coopyright {
-        padding-left: 33%;
+        padding-left: 41%;
     }
 }
 
-@media(max-width:768px) {
+@media (max-width:768px) {
     .footer__coopyright {
         font-size: 0.8em;
         padding-left: 30%;
+        padding-top: 3%;
     }
 }
 
-@media(max-width:320px) {
+@media (max-width:320px) {
     .footer__coopyright {
         font-size: 0.7em;
         padding-left: 0%;

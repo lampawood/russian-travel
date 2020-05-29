@@ -6,7 +6,7 @@
     padding-bottom: 4.167%;
 }
 
-@media(max-width:768px) {
+@media (max-width:768px) {
     .intro__text {
         font-size: 1em;
     }
