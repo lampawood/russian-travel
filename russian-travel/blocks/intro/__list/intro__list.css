@@ -1,12 +1,15 @@
-    .intro__list {
-        font-size: 0.8em;
-        line-height: 1.5;
-        margin: 0;
-        padding-bottom: 11.98%;
-    }
-    
-    @media(max-width:320px) {
-        .intro__list {
-            padding-bottom: 15%;
-        }
-    }
+   @import url(./_span/intro__list_span.css);
+   .intro__list {
+       font-size: 0.8em;
+       line-height: 1.406;
+       margin: 0;
+       padding-bottom: 11.98%;
+       list-style-type: none;
+       padding-left: 0;
+   }
+   
+   @media(max-width:320px) {
+       .intro__list {
+           padding-bottom: 15%;
+       }
+   }

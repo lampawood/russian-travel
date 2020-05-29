@@ -1,26 +1,19 @@
+@import url(./_selected/header__lang-link_selected.css);
+@import url(./_no-selected/header__lang-link_no-selected.css);
+.header__lang-link {
+    font-size: 1.5em;
+    line-height: 1.6em;
+    color: white;
+    max-height: 28px;
+    margin-top: 2%;
+}
+
+@media(max-width:320px) {
     .header__lang-link {
-        font-size: 1.5em;
-        line-height: 1.6em;
-        color: white;
-        padding-left: 80%;
-        text-decoration: underline;
-        max-height: 28px;
-        margin-top: 2%;
-        position: absolute;
-        right: 5%;
+        font-size: 1.259em;
+        right: 10%;
     }
-    
-    .header__lang-link:last-child {
-        left: 17.5%;
-        text-decoration: none;
+    .header__lang-link_no-selected {
+        left: 14.5%;
     }
-    
-    @media(max-width:320px) {
-        .header__lang-link {
-            font-size: 1.259em;
-            right: 10%;
-        }
-        .header__lang-link:last-child {
-            left: 14.5%;
-        }
-    }
+}

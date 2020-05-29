@@ -1,7 +1,8 @@
 .place__title {
     grid-area: title;
     width: 50%;
-    margin: 10% 0 7%;
+    margin: 0;
+    padding-bottom: 5%;
 }
 
 @media(max-width:320px) {

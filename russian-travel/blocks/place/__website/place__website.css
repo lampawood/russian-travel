@@ -1,11 +1,11 @@
 .place__website {
-    grid-area: site;
+    grid-area: link;
     color: #ffffff;
     font-size: 1em;
     line-height: 1.5;
-    max-height: 5%;
-    margin: -15% 0 0 0;
-    grid-row: -3;
+    margin: 0;
+    padding-top: 7%;
+    padding-bottom: 6%;
 }
 
 .place__website:hover {
