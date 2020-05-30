@@ -1,8 +1,8 @@
 .footer__link {
     text-decoration: none;
     color: #ffffff;
-    font-size: 1em;
-    line-height: 1em;
+    font-size: 16px;
+    line-height: 18px;
     height: 1%;
     padding-right: 1%;
 }
@@ -11,14 +11,9 @@
     padding-right: 46%;
 }
 
-@media (min-width:768px) and (max-width:1279px) {
-    .footer__link {
-        font-size: 0.8em;
-    }
-}
-
 @media (min-width:320px) and (max-width:767px) {
     .footer__link {
-        padding-bottom: 5%;
+        font-size: 24px;
+        line-height: 24px;
     }
 }

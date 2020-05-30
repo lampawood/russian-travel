@@ -5,7 +5,7 @@
     background-image: url(../../images/__background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 90%;
+    max-width: 1184px;
     margin: 5% auto;
     display: flex;
     justify-content: center;
@@ -13,12 +13,19 @@
 
 @media (max-width:1024px) {
     .cover {
-        width: 100%;
+        max-width: 1024px;
+    }
+}
+
+@media (max-width:320px) {
+    .cover {
+        max-width: 320px;
     }
 }
 
 @media (max-width:768px) {
     .cover {
+        max-width: 768px;
         margin: 10% auto;
     }
 }

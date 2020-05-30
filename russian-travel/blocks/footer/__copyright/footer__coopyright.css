@@ -1,8 +1,8 @@
 .footer__coopyright {
     margin: 0;
-    font-size: 1em;
-    line-height: 1em;
-    padding-left: 44%;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 47%;
     padding-top: 1.5%;
 }
 
@@ -14,15 +14,14 @@
 
 @media (max-width:768px) {
     .footer__coopyright {
-        font-size: 0.8em;
-        padding-left: 30%;
-        padding-top: 3%;
+        padding-left: 9%;
+        padding-top: 2.5%;
     }
 }
 
 @media (max-width:320px) {
     .footer__coopyright {
-        font-size: 0.7em;
-        padding-left: 0%;
+        line-height: 14px;
+        padding: 0;
     }
 }

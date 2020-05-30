@@ -2,12 +2,18 @@
 .photo-grid {
     margin: 0 auto;
     display: grid;
-    width: 94%;
+    width: 1184px;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     grid-template-rows: auto;
     padding-bottom: 7.188%;
     justify-items: center;
     grid-gap: 16px;
+}
+
+@media (max-width:1024px) {
+    .photo-grid {
+        max-width: 928px;
+    }
 }
 
 @media (max-width:768px) {
@@ -17,10 +23,10 @@
     }
 }
 
-@media (max-width:320px) {
+@media (min-width:320px) and (max-width:767px) {
     .photo-grid {
         display: flex;
         flex-direction: column;
-        width: 320px;
+        max-width: 288px;
     }
 }

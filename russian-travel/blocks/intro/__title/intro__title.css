@@ -1,16 +1,23 @@
 .intro__title {
-    font-size: 3.296em;
-    line-height: 1.1em;
-    width: 89.845%;
+    font-size: 54px;
+    line-height: 58px;
+    font-weight: 900;
+    width: 690px;
     margin: 0;
     padding-top: 11.98%;
     padding-bottom: 5.21%;
 }
 
-@media (max-width:320px) {
+@media (max-width:768px) {
     .intro__title {
-        font-size: 2em;
-        line-height: 1.1em;
-        width: 66.845%;
+        max-width: 720px;
+    }
+}
+
+@media (min-width:320px) and (max-width:767px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+        width: 288px;
     }
 }

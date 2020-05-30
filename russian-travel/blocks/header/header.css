@@ -1,9 +1,27 @@
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__logo/header__logo.css);
 .header {
-    width: 90.5%;
+    max-width: 1184px;
     position: relative;
     padding: 5%;
     display: flex;
     flex-direction: row;
+}
+
+@media (max-width:1024px) {
+    .header {
+        max-width: 928px;
+    }
+}
+
+@media (max-width:768px) {
+    .header {
+        max-width: 720px;
+    }
+}
+
+@media (min-width:320px) and (max-width:767px) {
+    .header {
+        max-width: 288px;
+    }
 }

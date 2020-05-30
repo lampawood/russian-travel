@@ -9,11 +9,11 @@
 
 @media (max-width:768px) {
     .footer__links {
-        width: 51%;
+        width: 68%;
     }
 }
 
-@media (max-width:320px) {
+@media (min-width:320px) and (max-width:768px) {
     .footer__links {
         flex-direction: column;
     }

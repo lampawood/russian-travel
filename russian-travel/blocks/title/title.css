@@ -1,16 +1,18 @@
 .title {
-    font-size: 5em;
-    line-height: 1em;
-}
-
-@media (max-width:1024px) {
-    .title {
-        font-size: 4em;
-    }
+    font-size: 72px;
+    line-height: 76px;
 }
 
 @media (max-width:768px) {
     .title {
-        font-size: 3em;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media (max-width:320px) {
+    .title {
+        font-size: 32px;
+        line-height: 35px;
     }
 }
