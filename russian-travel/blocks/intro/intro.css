@@ -1,14 +1,16 @@
 @import url(./__title/intro__title.css);
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
+@import url(./__span/intro__span.css);
 .intro {
-    max-width: 690px;
-    padding-left: 10%;
+    max-width: 984px;
+    padding-left: 11.5%;
 }
 
 @media (max-width:1024px) {
     .intro {
         max-width: 928px;
+        padding-left: 4.5%;
     }
 }
 
@@ -21,6 +23,7 @@
 @media (max-width:768px) {
     .intro {
         max-width: 768px;
-        padding-left: 4%;
+        padding-left: 0;
+        margin: 0 24px;
     }
 }

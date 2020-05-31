@@ -1,0 +1,14 @@
+.header__lang-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2%;
+    margin: 0;
+}
+
+@media (max-width:320px) {
+    .header__lang-container {
+        padding-top: 5%;
+    }
+}

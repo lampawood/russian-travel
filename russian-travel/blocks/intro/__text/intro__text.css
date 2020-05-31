@@ -12,7 +12,13 @@
         }
     }
     
-    @media (min-width:320px) and (max-width:767px) {
+    @media (min-width:321px) and (max-width:767px) {
+        .intro__text {
+            max-width: 90%;
+        }
+    }
+    
+    @media (max-width:320px) and (max-width:767px) {
         .intro__text {
             max-width: 288px;
         }

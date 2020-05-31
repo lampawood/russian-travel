@@ -18,5 +18,6 @@
     .photo-grid__item {
         max-width: 288px;
         margin: 0 auto;
+        padding-bottom: 12px;
     }
 }

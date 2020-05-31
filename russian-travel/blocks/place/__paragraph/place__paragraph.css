@@ -13,7 +13,15 @@
     }
 }
 
-@media (min-width:320px) and (max-width:767px) {
+@media (min-width:321px) and (max-width:767px) {
+    .place__paragraph {
+        padding-left: 5%;
+        width: 90%;
+        padding-top: 8%;
+    }
+}
+
+@media (max-width:320px) {
     .place__paragraph {
         padding-left: 5%;
         width: 288px;

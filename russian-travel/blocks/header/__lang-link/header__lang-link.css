@@ -1,17 +1,15 @@
-@import url(./_selected/header__lang-link_selected.css);
-@import url(./_no-selected/header__lang-link_no-selected.css);
 .header__lang-link {
     font-size: 24px;
     line-height: 28px;
     color: white;
     max-height: 28px;
-    margin-top: 2%;
+    text-decoration: underline;
+    padding-right: 18px;
 }
 
 @media (min-width:320px) and (max-width:767px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 24px;
-        right: 10%;
     }
 }

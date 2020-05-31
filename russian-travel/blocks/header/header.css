@@ -1,11 +1,14 @@
-@import url(./__lang-link/header__lang-link.css);
 @import url(./__logo/header__logo.css);
+@import url(./__lang-container/header__lang-container.css);
+@import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/header__lang-link_no-selected.css);
 .header {
     max-width: 1184px;
     position: relative;
-    padding: 5%;
+    padding: 5% 48px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 @media (max-width:1024px) {
@@ -17,11 +20,19 @@
 @media (max-width:768px) {
     .header {
         max-width: 720px;
+        padding: 5% 24px;
     }
 }
 
-@media (min-width:320px) and (max-width:767px) {
+@media (min-width:321px) and (max-width:767px) {
+    .header {
+        max-width: 90%;
+    }
+}
+
+@media (max-width:320px) {
     .header {
         max-width: 288px;
+        padding: 5% 16px;
     }
 }

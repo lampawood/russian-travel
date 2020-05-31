@@ -2,19 +2,17 @@
     margin: 0;
     font-size: 14px;
     line-height: 16px;
-    padding-left: 47%;
     padding-top: 1.5%;
 }
 
 @media (max-width:1024px) {
     .footer__coopyright {
-        padding-left: 41%;
+        padding-top: 2%;
     }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .footer__coopyright {
-        padding-left: 9%;
         padding-top: 2.5%;
     }
 }
@@ -22,6 +20,6 @@
 @media (max-width:320px) {
     .footer__coopyright {
         line-height: 14px;
-        padding: 0;
+        padding-top: 12px;
     }
 }

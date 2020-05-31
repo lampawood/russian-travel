@@ -13,7 +13,7 @@
     }
 }
 
-@media (min-width:320px) and (max-width:768px) {
+@media (min-width:320px) and (max-width:767px) {
     .footer__links {
         flex-direction: column;
     }
