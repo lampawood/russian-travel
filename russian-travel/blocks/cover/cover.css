@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1184px;
+    max-height: 740px;
     min-height: 200px;
     margin: 5% auto;
     display: flex;
@@ -15,11 +16,13 @@
 @media (max-width:1024px) {
     .cover {
         max-width: 1024px;
+        max-height: 640px;
     }
 }
 
 @media (max-width:768px) {
     .cover {
+        max-height: 480px;
         max-width: 768px;
         margin: 10% auto;
     }
@@ -28,5 +31,6 @@
 @media (max-width:320px) {
     .cover {
         max-width: 320px;
+        max-height: 200px;
     }
 }

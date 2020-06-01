@@ -4,3 +4,7 @@
     text-decoration: none;
     color: #FFF;
 }
+
+.cover__overlay:hover {
+    background-color: rgba(42, 44, 47, 0.8);
+}

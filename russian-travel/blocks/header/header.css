@@ -1,7 +1,7 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang-container/header__lang-container.css);
 @import url(./__lang-link/header__lang-link.css);
-@import url(./__lang-link/header__lang-link_no-selected.css);
+@import url(./__lang-link/_no-selected/header__lang-link_no-selected.css);
 .header {
     max-width: 1184px;
     position: relative;
